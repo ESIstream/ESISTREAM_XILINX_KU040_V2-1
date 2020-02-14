@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_esistream_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="esistream_pkg" />
+            <top_module name="glbl" />
+            <top_module name="tb_top_esistream" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10779502135fs"></ZoomStartTime>
+      <ZoomEndTime time="10835044509fs"></ZoomEndTime>
+      <Cursor1Time time="10798241000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="275"></NameColumnWidth>
+      <ValueColumnWidth column_width="166"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="142" />
+   <wave_markers>
+      <marker time="10515000000" label="" />
+      <marker time="10573242000" label="" />
+      <marker time="10475000000" label="" />
+      <marker time="10803241000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_top_esistream/clk_xcvr_fmc_p" type="logic">
+      <obj_property name="ElementShortName">clk_xcvr_fmc_p</obj_property>
+      <obj_property name="ObjectShortName">clk_xcvr_fmc_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/clk_xcvr_fmc_n" type="logic">
+      <obj_property name="ElementShortName">clk_xcvr_fmc_n</obj_property>
+      <obj_property name="ObjectShortName">clk_xcvr_fmc_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/clk_125mhz_p" type="logic">
+      <obj_property name="ElementShortName">clk_125mhz_p</obj_property>
+      <obj_property name="ObjectShortName">clk_125mhz_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/clk_125mhz_n" type="logic">
+      <obj_property name="ElementShortName">clk_125mhz_n</obj_property>
+      <obj_property name="ObjectShortName">clk_125mhz_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/fmc_xcvr_out_p" type="array">
+      <obj_property name="ElementShortName">fmc_xcvr_out_p[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fmc_xcvr_out_p[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/fmc_xcvr_out_n" type="array">
+      <obj_property name="ElementShortName">fmc_xcvr_out_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fmc_xcvr_out_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/dipswitch" type="array">
+      <obj_property name="ElementShortName">dipswitch[4:1]</obj_property>
+      <obj_property name="ObjectShortName">dipswitch[4:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/led_usr" type="array">
+      <obj_property name="ElementShortName">led_usr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led_usr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/tx_ip_ready" type="logic">
+      <obj_property name="ElementShortName">tx_ip_ready</obj_property>
+      <obj_property name="ObjectShortName">tx_ip_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/rx_ip_ready" type="logic">
+      <obj_property name="ElementShortName">rx_ip_ready</obj_property>
+      <obj_property name="ObjectShortName">rx_ip_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/ip_ready" type="logic">
+      <obj_property name="ElementShortName">ip_ready</obj_property>
+      <obj_property name="ObjectShortName">ip_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/rx_lanes_ready" type="logic">
+      <obj_property name="ElementShortName">rx_lanes_ready</obj_property>
+      <obj_property name="ObjectShortName">rx_lanes_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/tx_d_ctrl" type="array">
+      <obj_property name="ElementShortName">tx_d_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_d_ctrl[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/prbs_en" type="logic">
+      <obj_property name="ElementShortName">prbs_en</obj_property>
+      <obj_property name="ObjectShortName">prbs_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/tx_disp_en" type="logic">
+      <obj_property name="ElementShortName">tx_disp_en</obj_property>
+      <obj_property name="ObjectShortName">tx_disp_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/sync" type="logic">
+      <obj_property name="ElementShortName">sync</obj_property>
+      <obj_property name="ObjectShortName">sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/rst_check" type="logic">
+      <obj_property name="ElementShortName">rst_check</obj_property>
+      <obj_property name="ObjectShortName">rst_check</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/ber_status" type="logic">
+      <obj_property name="ElementShortName">ber_status</obj_property>
+      <obj_property name="ObjectShortName">ber_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/cb_status" type="logic">
+      <obj_property name="ElementShortName">cb_status</obj_property>
+      <obj_property name="ObjectShortName">cb_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/NB_LANES" type="other">
+      <obj_property name="ElementShortName">NB_LANES</obj_property>
+      <obj_property name="ObjectShortName">NB_LANES</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/COMMA" type="array">
+      <obj_property name="ElementShortName">COMMA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COMMA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/STATUS_SUCCESS" type="logic">
+      <obj_property name="ElementShortName">STATUS_SUCCESS</obj_property>
+      <obj_property name="ObjectShortName">STATUS_SUCCESS</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider110">
+      <obj_property name="label">top_esistream</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/clk_xcvr_fmc_p" type="logic">
+      <obj_property name="ElementShortName">clk_xcvr_fmc_p</obj_property>
+      <obj_property name="ObjectShortName">clk_xcvr_fmc_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/clk_xcvr_fmc_n" type="logic">
+      <obj_property name="ElementShortName">clk_xcvr_fmc_n</obj_property>
+      <obj_property name="ObjectShortName">clk_xcvr_fmc_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/clk_125mhz_p" type="logic">
+      <obj_property name="ElementShortName">clk_125mhz_p</obj_property>
+      <obj_property name="ObjectShortName">clk_125mhz_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/clk_125mhz_n" type="logic">
+      <obj_property name="ElementShortName">clk_125mhz_n</obj_property>
+      <obj_property name="ObjectShortName">clk_125mhz_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/fmc_xcvr_out_p" type="array">
+      <obj_property name="ElementShortName">fmc_xcvr_out_p[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fmc_xcvr_out_p[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/fmc_xcvr_out_n" type="array">
+      <obj_property name="ElementShortName">fmc_xcvr_out_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fmc_xcvr_out_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/fmc_xcvr_in_p" type="array">
+      <obj_property name="ElementShortName">fmc_xcvr_in_p[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fmc_xcvr_in_p[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/fmc_xcvr_in_n" type="array">
+      <obj_property name="ElementShortName">fmc_xcvr_in_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fmc_xcvr_in_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/dipswitch" type="array">
+      <obj_property name="ElementShortName">dipswitch[4:1]</obj_property>
+      <obj_property name="ObjectShortName">dipswitch[4:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/led_usr" type="array">
+      <obj_property name="ElementShortName">led_usr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led_usr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rst_tx" type="logic">
+      <obj_property name="ElementShortName">rst_tx</obj_property>
+      <obj_property name="ObjectShortName">rst_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rst_rx" type="logic">
+      <obj_property name="ElementShortName">rst_rx</obj_property>
+      <obj_property name="ObjectShortName">rst_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rst_tx_pulse" type="logic">
+      <obj_property name="ElementShortName">rst_tx_pulse</obj_property>
+      <obj_property name="ObjectShortName">rst_tx_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rst_rx_pulse" type="logic">
+      <obj_property name="ElementShortName">rst_rx_pulse</obj_property>
+      <obj_property name="ObjectShortName">rst_rx_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/sysclk" type="logic">
+      <obj_property name="ElementShortName">sysclk</obj_property>
+      <obj_property name="ObjectShortName">sysclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/sync_in_rx" type="logic">
+      <obj_property name="ElementShortName">sync_in_rx</obj_property>
+      <obj_property name="ObjectShortName">sync_in_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/sync_in_tx" type="logic">
+      <obj_property name="ElementShortName">sync_in_tx</obj_property>
+      <obj_property name="ObjectShortName">sync_in_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/sync_in_rx_pulse" type="logic">
+      <obj_property name="ElementShortName">sync_in_rx_pulse</obj_property>
+      <obj_property name="ObjectShortName">sync_in_rx_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/sync_in_tx_pulse" type="logic">
+      <obj_property name="ElementShortName">sync_in_tx_pulse</obj_property>
+      <obj_property name="ObjectShortName">sync_in_tx_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/sync_out_rx" type="logic">
+      <obj_property name="ElementShortName">sync_out_rx</obj_property>
+      <obj_property name="ObjectShortName">sync_out_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/tx_clk" type="logic">
+      <obj_property name="ElementShortName">tx_clk</obj_property>
+      <obj_property name="ObjectShortName">tx_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/tx_d_ctrl" type="array">
+      <obj_property name="ElementShortName">tx_d_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_d_ctrl[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/tx_d_ctrl_1" type="array">
+      <obj_property name="ElementShortName">tx_d_ctrl_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_d_ctrl_1[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/tx_d_ctrl_2" type="array">
+      <obj_property name="ElementShortName">tx_d_ctrl_2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_d_ctrl_2[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/prbs_en" type="logic">
+      <obj_property name="ElementShortName">prbs_en</obj_property>
+      <obj_property name="ObjectShortName">prbs_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/tx_disp_en" type="logic">
+      <obj_property name="ElementShortName">tx_disp_en</obj_property>
+      <obj_property name="ObjectShortName">tx_disp_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/tx_ip_ready" type="logic">
+      <obj_property name="ElementShortName">tx_ip_ready</obj_property>
+      <obj_property name="ObjectShortName">tx_ip_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_clk" type="logic">
+      <obj_property name="ElementShortName">rx_clk</obj_property>
+      <obj_property name="ObjectShortName">rx_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_ip_ready" type="logic">
+      <obj_property name="ElementShortName">rx_ip_ready</obj_property>
+      <obj_property name="ObjectShortName">rx_ip_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/data_to_encode_1" type="array">
+      <obj_property name="ElementShortName">data_to_encode_1[13:0]</obj_property>
+      <obj_property name="ObjectShortName">data_to_encode_1[13:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/data_to_encode_2" type="array">
+      <obj_property name="ElementShortName">data_to_encode_2[13:0]</obj_property>
+      <obj_property name="ObjectShortName">data_to_encode_2[13:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/data_to_encode_1_64b" type="array">
+      <obj_property name="ElementShortName">data_to_encode_1_64b[13:0]</obj_property>
+      <obj_property name="ObjectShortName">data_to_encode_1_64b[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/data_to_encode_2_64b" type="array">
+      <obj_property name="ElementShortName">data_to_encode_2_64b[13:0]</obj_property>
+      <obj_property name="ObjectShortName">data_to_encode_2_64b[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_data_valid" type="logic">
+      <obj_property name="ElementShortName">rx_data_valid</obj_property>
+      <obj_property name="ObjectShortName">rx_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_lanes_ready" type="logic">
+      <obj_property name="ElementShortName">rx_lanes_ready</obj_property>
+      <obj_property name="ObjectShortName">rx_lanes_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/esistream_com_ready" type="logic">
+      <obj_property name="ElementShortName">esistream_com_ready</obj_property>
+      <obj_property name="ObjectShortName">esistream_com_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[3:0][3:0][13:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[3:0][3:0][13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rst_check" type="logic">
+      <obj_property name="ElementShortName">rst_check</obj_property>
+      <obj_property name="ObjectShortName">rst_check</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/data_ctrl" type="array">
+      <obj_property name="ElementShortName">data_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ctrl[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/frame_out" type="array">
+      <obj_property name="ElementShortName">frame_out[3:0][3:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">frame_out[3:0][3:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[3:0][3:0][13:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[3:0][3:0][13:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/valid_out" type="array">
+      <obj_property name="ElementShortName">valid_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/ber_status" type="logic">
+      <obj_property name="ElementShortName">ber_status</obj_property>
+      <obj_property name="ObjectShortName">ber_status</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/cb_status" type="logic">
+      <obj_property name="ElementShortName">cb_status</obj_property>
+      <obj_property name="ObjectShortName">cb_status</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/pll_locked" type="logic">
+      <obj_property name="ElementShortName">pll_locked</obj_property>
+      <obj_property name="ObjectShortName">pll_locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/tx_rstdone" type="array">
+      <obj_property name="ElementShortName">tx_rstdone[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_rstdone[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rst_tx_xcvr" type="array">
+      <obj_property name="ElementShortName">rst_tx_xcvr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rst_tx_xcvr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/xcvr_data_tx" type="array">
+      <obj_property name="ElementShortName">xcvr_data_tx[255:0]</obj_property>
+      <obj_property name="ObjectShortName">xcvr_data_tx[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/xcvr_pll_lock" type="array">
+      <obj_property name="ElementShortName">xcvr_pll_lock[3:0]</obj_property>
+      <obj_property name="ObjectShortName">xcvr_pll_lock[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_rstdone" type="array">
+      <obj_property name="ElementShortName">rx_rstdone[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_rstdone[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rst_rx_xcvr" type="logic">
+      <obj_property name="ElementShortName">rst_rx_xcvr</obj_property>
+      <obj_property name="ObjectShortName">rst_rx_xcvr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/xcvr_data_rx" type="array">
+      <obj_property name="ElementShortName">xcvr_data_rx[255:0]</obj_property>
+      <obj_property name="ObjectShortName">xcvr_data_rx[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/NB_LANES" type="other">
+      <obj_property name="ElementShortName">NB_LANES</obj_property>
+      <obj_property name="ObjectShortName">NB_LANES</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/COMMA" type="array">
+      <obj_property name="ElementShortName">COMMA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COMMA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/tx_lfsr_init" type="array">
+      <obj_property name="ElementShortName">tx_lfsr_init[3:0][16:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_lfsr_init[3:0][16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/ALL_LANES_ON" type="array">
+      <obj_property name="ElementShortName">ALL_LANES_ON[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALL_LANES_ON[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/ALL_LANES_OFF" type="array">
+      <obj_property name="ElementShortName">ALL_LANES_OFF[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALL_LANES_OFF[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider189">
+      <obj_property name="label">rx_check</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/data_ctrl" type="array">
+      <obj_property name="ElementShortName">data_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ctrl[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/frame_out" type="array">
+      <obj_property name="ElementShortName">frame_out[3:0][3:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">frame_out[3:0][3:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[3:0][3:0][13:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[3:0][3:0][13:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/valid_out" type="array">
+      <obj_property name="ElementShortName">valid_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/ber_status" type="logic">
+      <obj_property name="ElementShortName">ber_status</obj_property>
+      <obj_property name="ObjectShortName">ber_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/cb_status" type="logic">
+      <obj_property name="ElementShortName">cb_status</obj_property>
+      <obj_property name="ObjectShortName">cb_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/valid_d" type="array">
+      <obj_property name="ElementShortName">valid_d[3:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_d[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/ber" type="array">
+      <obj_property name="ElementShortName">ber[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ber[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/cb" type="array">
+      <obj_property name="ElementShortName">cb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/data_out_qdl" type="array">
+      <obj_property name="ElementShortName">data_out_qdl[3:0][3:0][13:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_qdl[3:0][3:0][13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/data_a" type="array">
+      <obj_property name="ElementShortName">data_a[3:0][3:0][13:0]</obj_property>
+      <obj_property name="ObjectShortName">data_a[3:0][3:0][13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/data_s" type="array">
+      <obj_property name="ElementShortName">data_s[3:0][3:0][13:0]</obj_property>
+      <obj_property name="ObjectShortName">data_s[3:0][3:0][13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/u_data_out_qdl" type="array">
+      <obj_property name="ElementShortName">u_data_out_qdl[3:0][3:0][13:0]</obj_property>
+      <obj_property name="ObjectShortName">u_data_out_qdl[3:0][3:0][13:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/u_data_a" type="array">
+      <obj_property name="ElementShortName">u_data_a[3:0][3:0][13:0]</obj_property>
+      <obj_property name="ObjectShortName">u_data_a[3:0][3:0][13:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/u_data_s" type="array">
+      <obj_property name="ElementShortName">u_data_s[3:0][3:0][13:0]</obj_property>
+      <obj_property name="ObjectShortName">u_data_s[3:0][3:0][13:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/NB_LANES" type="other">
+      <obj_property name="ElementShortName">NB_LANES</obj_property>
+      <obj_property name="ObjectShortName">NB_LANES</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/SLV_NB_LANES_ALL_ONE" type="array">
+      <obj_property name="ElementShortName">SLV_NB_LANES_ALL_ONE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SLV_NB_LANES_ALL_ONE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/POSITIVE_14B_RAMP" type="array">
+      <obj_property name="ElementShortName">POSITIVE_14B_RAMP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">POSITIVE_14B_RAMP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/NEGATIVE_14B_RAMP" type="array">
+      <obj_property name="ElementShortName">NEGATIVE_14B_RAMP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">NEGATIVE_14B_RAMP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/ALL_14B_ONE" type="array">
+      <obj_property name="ElementShortName">ALL_14B_ONE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALL_14B_ONE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/ALL_14B_ZERO" type="array">
+      <obj_property name="ElementShortName">ALL_14B_ZERO[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALL_14B_ZERO[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/DATA_14B_0" type="array">
+      <obj_property name="ElementShortName">DATA_14B_0[13:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_14B_0[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/DATA_14B_1" type="array">
+      <obj_property name="ElementShortName">DATA_14B_1[13:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_14B_1[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/STEP" type="array">
+      <obj_property name="ElementShortName">STEP[13:0]</obj_property>
+      <obj_property name="ObjectShortName">STEP[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/BER_NO_ERROR" type="array">
+      <obj_property name="ElementShortName">BER_NO_ERROR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BER_NO_ERROR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/i_rx_check/CB_NO_ERROR" type="array">
+      <obj_property name="ElementShortName">CB_NO_ERROR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CB_NO_ERROR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/sync" type="logic">
+      <obj_property name="ElementShortName">sync</obj_property>
+      <obj_property name="ObjectShortName">sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/prbs_en" type="logic">
+      <obj_property name="ElementShortName">prbs_en</obj_property>
+      <obj_property name="ObjectShortName">prbs_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/lane_on" type="logic">
+      <obj_property name="ElementShortName">lane_on</obj_property>
+      <obj_property name="ObjectShortName">lane_on</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/clk_acq" type="logic">
+      <obj_property name="ElementShortName">clk_acq</obj_property>
+      <obj_property name="ObjectShortName">clk_acq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/read_fifo" type="logic">
+      <obj_property name="ElementShortName">read_fifo</obj_property>
+      <obj_property name="ObjectShortName">read_fifo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/lane_ready" type="logic">
+      <obj_property name="ElementShortName">lane_ready</obj_property>
+      <obj_property name="ObjectShortName">lane_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/decoded_frame_out" type="array">
+      <obj_property name="ElementShortName">decoded_frame_out[3:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">decoded_frame_out[3:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/decoded_data_out" type="array">
+      <obj_property name="ElementShortName">decoded_data_out[3:0][13:0]</obj_property>
+      <obj_property name="ObjectShortName">decoded_data_out[3:0][13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/decoded_valid_out" type="logic">
+      <obj_property name="ElementShortName">decoded_valid_out</obj_property>
+      <obj_property name="ObjectShortName">decoded_valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/aligned_data_rdy" type="logic">
+      <obj_property name="ElementShortName">aligned_data_rdy</obj_property>
+      <obj_property name="ObjectShortName">aligned_data_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/align_busy" type="logic">
+      <obj_property name="ElementShortName">align_busy</obj_property>
+      <obj_property name="ObjectShortName">align_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/aligned_data" type="array">
+      <obj_property name="ElementShortName">aligned_data[0:3][15:0]</obj_property>
+      <obj_property name="ObjectShortName">aligned_data[0:3][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/sync_d" type="logic">
+      <obj_property name="ElementShortName">sync_d</obj_property>
+      <obj_property name="ObjectShortName">sync_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/rst_logic_2d" type="logic">
+      <obj_property name="ElementShortName">rst_logic_2d</obj_property>
+      <obj_property name="ObjectShortName">rst_logic_2d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/rst_logic_3d" type="logic">
+      <obj_property name="ElementShortName">rst_logic_3d</obj_property>
+      <obj_property name="ObjectShortName">rst_logic_3d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/init_lfsr" type="logic">
+      <obj_property name="ElementShortName">init_lfsr</obj_property>
+      <obj_property name="ObjectShortName">init_lfsr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/write_fifo" type="logic">
+      <obj_property name="ElementShortName">write_fifo</obj_property>
+      <obj_property name="ObjectShortName">write_fifo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/read_fifo_i" type="logic">
+      <obj_property name="ElementShortName">read_fifo_i</obj_property>
+      <obj_property name="ObjectShortName">read_fifo_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/scrambled_data" type="array">
+      <obj_property name="ElementShortName">scrambled_data[0:3][15:0]</obj_property>
+      <obj_property name="ObjectShortName">scrambled_data[0:3][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/scrambled_data_rdy" type="logic">
+      <obj_property name="ElementShortName">scrambled_data_rdy</obj_property>
+      <obj_property name="ObjectShortName">scrambled_data_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/din_fifo" type="array">
+      <obj_property name="ElementShortName">din_fifo[0:3][15:0]</obj_property>
+      <obj_property name="ObjectShortName">din_fifo[0:3][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/descrambled_data" type="array">
+      <obj_property name="ElementShortName">descrambled_data[0:3][15:0]</obj_property>
+      <obj_property name="ObjectShortName">descrambled_data[0:3][15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/descrambled_data_rdy" type="logic">
+      <obj_property name="ElementShortName">descrambled_data_rdy</obj_property>
+      <obj_property name="ObjectShortName">descrambled_data_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/prbs" type="array">
+      <obj_property name="ElementShortName">prbs[0:3][16:0]</obj_property>
+      <obj_property name="ObjectShortName">prbs[0:3][16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/fifo_empty" type="array">
+      <obj_property name="ElementShortName">fifo_empty[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/DATA_LENGTH" type="other">
+      <obj_property name="ElementShortName">DATA_LENGTH</obj_property>
+      <obj_property name="ObjectShortName">DATA_LENGTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/COMMA" type="array">
+      <obj_property name="ElementShortName">COMMA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COMMA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_esistream/top_esistream_1/rx_esistream_inst/\lane_decoding_gen(0)\/rx_lane_decoding_1/LFSR_LENGTH" type="other">
+      <obj_property name="ElementShortName">LFSR_LENGTH</obj_property>
+      <obj_property name="ObjectShortName">LFSR_LENGTH</obj_property>
+   </wvobject>
+</wave_config>
